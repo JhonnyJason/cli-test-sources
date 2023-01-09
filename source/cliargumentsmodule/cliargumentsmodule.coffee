@@ -46,7 +46,7 @@ extractMeowed = (meowed) ->
 
 throwErrorOnUsageFail = (extract) ->
     log "throwErrorOnUsageFail"
-    if !extract.option then throw new Error("Usag error: no option has been defined!")
+    if !extract.option then throw new Error("Usage error: option has been defined!")
     return
 #endregion
 
